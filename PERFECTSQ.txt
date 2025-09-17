@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+    int num, result;
+    printf("enter the number:");
+    scanf("%d",&num);
+    if(num>0)
+    {
+        result = sqrt(num);
+        if(result * result == num)
+        {
+            printf("perfect square");
+        }
+        else
+        {
+            printf("not a perfect square");
+        }
+    }
+    getch();
+}

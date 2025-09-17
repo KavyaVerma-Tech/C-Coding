@@ -1,0 +1,25 @@
+#include<stdio.h>
+void main()
+{
+    float p,l,cp,sp;
+    float pp,lp;
+    printf("enter the cost price:");
+    scanf("%d",&cp);
+    printf("enter the selling price:");
+    scanf("%d",&sp);
+    if(cp<sp)
+    {
+        p = sp - cp;
+        printf("profit = %d",p);
+        pp = p/cp*100;
+        printf("Profit % = %f",pp);
+    }
+    else
+    {
+        l = cp - sp;
+        printf("loss = %d",l);
+        lp = l/cp*100;
+        printf("loss % = %f",lp);
+    }
+    getch();
+}

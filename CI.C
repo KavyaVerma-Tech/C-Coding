@@ -15,4 +15,3 @@ ci = a - p;
 printf("compound interest is = %d",ci);
 getch();
 }
-

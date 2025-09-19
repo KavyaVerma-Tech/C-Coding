@@ -45,5 +45,5 @@ void main()
         default:
         printf("invalid choice");
     }
-    getcH();
+    getch();
 }

@@ -1,0 +1,25 @@
+#include<stdio.h>
+void main()
+{
+    char ch;
+    printf("enter any character: ");
+    scanf(" %c",&ch);
+    switch (1)
+    {
+        case 1:
+        if((ch >= 'A' && ch <= 'Z') || (ch >= 'a' && ch <= 'z'))
+        {
+            printf("character is an alphabet");
+        break;
+        }
+        case 2:
+        if(ch >= '0' && ch <= '9')
+        {
+            printf("character is a digit");
+        break;
+        }
+        default:
+        printf("character is a special symbol");
+    }
+    getch();
+}           
